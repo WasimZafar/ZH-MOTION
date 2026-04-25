@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZHMOTION Physiotherapy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+    <header style="
+        background-color: #000000;
+        padding: 8px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #0f766e;
+        border-top: 1px solid #0f766e;
+      ">
+        <a href="index.html" style="display: flex; align-items: center; text-decoration: none">
+            <img src="img.png" alt="ZHMOTION Logo" style="height: 60px; width: auto" />
+            <p style="font-weight: 600; font-size: 20px; color: #e3eaf4">
+                &nbsp;&nbsp; ZH MOTION
+            </p>
+        </a>
+
+        <ul style="
+          display: flex;
+          gap: 25px;
+          align-items: center;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          font-family: sans-serif;">
+            <li>
+                <a href="/" style="
+              color: #ffffff;
+              text-decoration: none;
+              font-size: 16px;
+              transition: color 0.3s;
+            " onmouseover="this.style.color = '#2dd4bf'" onmouseout="this.style.color = '#ffffff'">Home</a>
+            </li>
+            <li>
+                <a href="#about" style="
+              color: #ffffff;
+              text-decoration: none;
+              font-size: 16px;
+              transition: color 0.3s;
+            " onmouseover="this.style.color = '#2dd4bf'" onmouseout="this.style.color = '#ffffff'">About Us</a>
+            </li>
+            <li>
+                <a href="#services" style="
+              color: #ffffff;
+              text-decoration: none;
+              font-size: 16px;
+              transition: color 0.3s;
+            " onmouseover="this.style.color = '#2dd4bf'" onmouseout="this.style.color = '#ffffff'">Services</a>
+            </li>
+            <li>
+                <a href="#team" style="
+              color: #ffffff;
+              text-decoration: none;
+              font-size: 16px;
+              transition: color 0.3s;
+            " onmouseover="this.style.color = '#2dd4bf'" onmouseout="this.style.color = '#ffffff'">Our Team</a>
+            </li>
+           
+            <li>
+                <a href="#contact" style="
+              color: #ffffff;
+              text-decoration: none;
+              font-size: 16px;
+              transition: color 0.3s;
+            " onmouseover="this.style.color = '#2dd4bf'" onmouseout="this.style.color = '#ffffff'">Contact</a>
+            </li>
+
+           
+        </ul>
+     
+    </header>
+
+    <main>
+        <section id="hero" class="hero-slider">
+            <div class="slider-container">
+                <div class="slide active" style="
+                background-image: url('img4.png');
+                background-size:auto; 
+                width: 100%;
+                background-position: center; 
+                background-repeat: no-repeat; 
+                background-color: #030b14;">
+                    <div class="slide-content">
+                       <h1 style="margin-top: 100px;font-size:50px">Regain Your Motion & Live Pain-Free</h1> 
+                        <p style="margin-top: 20px;">Expert Physiotherapy for a Healthier, Happier You.</p>
+                    </div>
+                </div>
+            </div>
+              
+        </section>
+
+        <section id="about" class="section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title">About ZH MOTION Physiotherapy</h2>
+                <div class="about-content">
+                    <div class="about-image" text-align: center>
+                        <img src="img2.png" style="
+                  height: 560px;
+                  width: 80%;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+                 " alt="Clinic Interior" />
+                    </div>
+                    <div class="about-text">
+                        <h3>Your Path to Recovery and Wellness</h3>
+                        <p>
+                            At ZHMOTION, we are dedicated to providing the highest quality
+                            physiotherapy care to help you achieve your health and wellness
+                            goals. Our experienced team utilizes evidence-based practices
+                            and a patient-centered approach to deliver effective and lasting
+                            results.
+                        </p>
+                        <p>
+                            We believe in empowering our patients through education and
+                            personalized treatment plans, ensuring a comfortable and
+                            supportive environment throughout their recovery journey.
+                        </p>
+                        <ul>
+                            <li>
+                                <i class="fas fa-check-circle"></i> State-of-the-art
+                                facilities
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Highly qualified and
+                                compassionate therapists
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Individualized treatment
+                                programs
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Focus on long-term
+                                wellness
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">Our Specialized Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-running service-icon"></i>
+                        <h3>Sports Injury Rehabilitation</h3>
+                        <p>
+                            Get back in the game faster with our targeted sports injury
+                            recovery programs.
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-bone service-icon"></i>
+                        <h3>Orthopedic Physiotherapy</h3>
+                        <p>
+                            Comprehensive care for musculoskeletal conditions and
+                            post-surgical recovery.
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-brain service-icon"></i>
+                        <h3>Neurological Rehabilitation</h3>
+                        <p>
+                            Specialized therapies for neurological conditions impacting
+                            movement and function.
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-child service-icon"></i>
+                        <h3>Pediatric Physiotherapy</h3>
+                        <p>
+                            Gentle and effective treatments for children with developmental
+                            and movement challenges.
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-female service-icon"></i>
+                        <h3>Women's Health Physiotherapy</h3>
+                        <p>
+                            Dedicated support for pelvic health, prenatal, and postnatal
+                            care.
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-spa service-icon"></i>
+                        <h3>Pain Management</h3>
+                        <p>
+                            Holistic approaches to reduce chronic pain and improve quality
+                            of life.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title">Meet Our Expert Team</h2>
+                <div class="team-grid"></div>
+                <div class="team-member" style="display: flex;">
+                    <div class="img-mine" style="margin-right: 30px;">
+                        <img src="https://picsum.photos/300/300?random=7" alt="Tawsif Zafar" />
+                    </div>
+
+                    <div>
+                        <h3>Tawsif Zafar</h3>
+                        <p>Rehabilitation Specialist</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="team-member" style="display: flex;">
+                    <div class="img-mine" style="margin-right: 30px;">
+                        <img src="https://picsum.photos/300/300?random=7" alt="Tawsif Zafar" />
+                    </div>
+                    <div>
+                        <h3>Tawsif Zafar</h3>
+                        <p>Rehabilitation Specialist</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </section>
+
+     
+
+        <section id="contact" class="section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title">Get in Touch with ZHMOTION </h2>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +91 9631487629</p>
+                        <p><i class="fas fa-envelope"></i> info@zhmotion.com</p>
+                        <p><i class="fas fa-clock"></i> Mon - Fri: 9:00 AM - 6:00 PM</p>
+                        <p><i class="fas fa-clock"></i> Saturday: 10:00 AM - 2:00 PM</p>
+                        <p><i class="fas fa-clock"></i> Sunday: Closed</p>
+                    </div>
+                
+            </div>
+        </section>
+        <!-- <div id="adminLoginModal" class="modal fixed inset-0 z-[100] items-center justify-center p-4" style="
+          display: none;
+          background: rgba(0, 0, 0, 0.8);
+          position: fixed;
+          inset: 0;
+          z-index: 1000;
+          justify-content: center;
+          align-items: center;
+        ">
+            <div class="bg-white p-8 rounded-2xl shadow-2xl max-w-sm w-full relative">
+                <button onclick="
+              document.getElementById('adminLoginModal').style.display = 'none'
+            " class="absolute top-4 right-4 text-gray-400 hover:text-teal-700 text-3xl leading-none" style="
+              position: absolute;
+              top: 10px;
+              right: 15px;
+              font-size: 24px;
+              cursor: pointer;
+              background: none;
+              border: none;
+            ">
+                    &times;
+                </button>
+                <h2 class="text-2xl font-bold text-teal-900 mb-6 text-center"
+                    style="color: #0f766e; text-align: center; margin-bottom: 20px">
+                    Admin Access
+                </h2>
+                <form id="adminLoginForm">
+                    <div class="form-group" style="margin-bottom: 15px">
+                        <label style="display: block; margin-bottom: 5px">Username</label>
+                        <input type="text" id="adminUser" required style="
+                  width: 100%;
+                  padding: 10px;
+                  border: 1px solid #ccc;
+                  border-radius: 5px;
+                " />
+                    </div>
+                    <div class="form-group" style="margin-bottom: 20px">
+                        <label style="display: block; margin-bottom: 5px">Password</label>
+                        <input type="password" id="adminPass" required style="
+                  width: 100%;
+                  padding: 10px;
+                  border: 1px solid #ccc;
+                  border-radius: 5px;
+                " />
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="
+                width: 100%;
+                background: #0f766e;
+                color: white;
+                padding: 12px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+              ">
+                        Login to Dashboard
+                    </button>
+                    <p id="loginError" style="
+                color: red;
+                text-align: center;
+                margin-top: 10px;
+                display: none;
+              ">
+                        Invalid credentials!
+                    </p>
+                </form>
+            </div>
+        </div> -->
+
+        <script>
+            // --- FORCE HOME ON REFRESH ---
+            window.onload = function () {
+                // 1. Remove any #tags from the URL (like index.html#contact)
+                if (window.location.hash) {
+                    history.replaceState(null, null, window.location.pathname);
+                }
+                // 2. Force the page to scroll to the absolute top
+                setTimeout(function () {
+                    window.scrollTo(0, 0);
+                }, 10);
+            };
+            // Function to open the modal
+            function openModal(id) {
+                document.getElementById(id).style.display = "flex";
+            }
+
+            // Handle the Login Submit
+            // document
+            //     .getElementById("adminLoginForm")
+            //     .addEventListener("submit", async (e) => {
+            //         e.preventDefault();
+            //         const user = document.getElementById("adminUser").value;
+            //         const pass = document.getElementById("adminPass").value;
+            //         const errorText = document.getElementById("loginError");
+
+            //         try {
+            //             const response = await fetch(
+            //                 "http://localhost:3000/api/admin/login",
+            //                 {
+            //                     method: "POST",
+            //                     headers: { "Content-Type": "application/json" },
+            //                     body: JSON.stringify({ username: user, password: pass }),
+            //                 },
+            //             );
+
+            //             const result = await response.json();
+
+            //             if (result.success) {
+            //                 // Save the secret token to the browser's memory
+            //                 localStorage.setItem("zhAdminToken", result.token);
+            //                 // Redirect to the admin dashboard!
+            //                 window.location.href = "admin.html";
+            //             } else {
+            //                 errorText.style.display = "block";
+            //             }
+            //         } catch (err) {
+            //             alert("Cannot connect to server.");
+            //         }
+            //     });
+        </script>
+    </main>
+
+    <footer style="
+        background-color: #1f2937;
+        color: white;
+        padding: 2rem 0;
+        text-align: center;
+      ">
+        <div class="container">
+            <p>&copy; 2024 ZHMOTION Physiotherapy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
