@@ -14,29 +14,32 @@
 
 <body>
     <header style="
-        background-color: #000000;
-        padding: 8px 40px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 1px solid #0f766e;
-        border-top: 1px solid #0f766e;
-      ">
-        <a href="index.html" style="display: flex; align-items: center; text-decoration: none">
-            <img src="img.png" alt="ZHMOTION Logo" style="height: 60px; width: auto" />
-            <p style="font-weight: 600; font-size: 20px; color: #e3eaf4">
-                &nbsp;&nbsp; ZH MOTION
-            </p>
-        </a>
+  background-color: #000000;
+  padding: 8px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #0f766e;
+  border-top: 1px solid #0f766e;
+  position: relative;
+">
 
-        <ul style="
-          display: flex;
-          gap: 25px;
-          align-items: center;
-          list-style: none;
-          margin: 0;
-          padding: 0;
-          font-family: sans-serif;">
+  <a href="index.html" style="display: flex; align-items: center; text-decoration: none">
+    <img src="img.png" alt="ZHMOTION Logo" style="height: 60px; width: auto" />
+    <p style="font-weight: 600; font-size: 20px; color: #e3eaf4">
+      &nbsp;&nbsp; ZH MOTION
+    </p>
+  </a>
+
+  <!-- HAMBURGER BUTTON -->
+ <button id="menu-toggle">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+  <!-- NAV -->
+  <ul id="nav-menu">
             <li>
                 <a href="/" style="
               color: #ffffff;
@@ -88,15 +91,18 @@
         <section id="hero" class="hero-slider">
             <div class="slider-container">
                 <div class="slide active" style="
-                background-image: url('img4.png');
-                background-size:auto; 
+                background-size: contain;
+                object-fit: contain;
+                background-image: url('img4.png'); 
                 width: 100%;
                 background-position: center; 
                 background-repeat: no-repeat; 
-                background-color: #030b14;">
+                background-color: #030b14;"> 
                     <div class="slide-content">
-                       <h1 style="margin-top: 100px;font-size:50px">Regain Your Motion & Live Pain-Free</h1> 
+                        <h1 class="hero-title">
+                        <span class="highlight">Regain Your Motion & Live Pain-Free</h1>                       
                         <p style="margin-top: 20px;">Expert Physiotherapy for a Healthier, Happier You.</p>
+                        </span> 
                     </div>
                 </div>
             </div>
@@ -107,13 +113,8 @@
             <div class="container">
                 <h2 class="section-title">About ZH MOTION Physiotherapy</h2>
                 <div class="about-content">
-                    <div class="about-image" text-align: center>
-                        <img src="img2.png" style="
-                  height: 560px;
-                  width: 80%;
-                  border-radius: 12px;
-                  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-                 " alt="Clinic Interior" />
+                    <div class="about-image">
+                      <img src="img2.png" class="about-img" alt="Clinic Interior" />
                     </div>
                     <div class="about-text">
                         <h3>Your Path to Recovery and Wellness</h3>
